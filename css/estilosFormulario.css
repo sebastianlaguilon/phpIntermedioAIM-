@@ -1,0 +1,419 @@
+/* Estilos Generales */
+/**{
+  padding:0 ;
+  margin: 0px;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+h1, h2 {
+ text-align: center;
+ margin-top: 20px;
+}
+
+
+
+
+#menu ul {
+  list-style: none;
+  margin: 0px auto;
+  margin-left: 25px;
+}
+
+#menu ul li {
+  line-height: 55px;
+  float: left;
+  border-right: 1px solid #363636;
+}
+
+#menu a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left:15px;
+  padding-right: 15px;
+  transition: all 300ms;
+}
+
+#menu a:first-child{
+  border-left: 1px solid #363636;
+}
+
+#menu a:hover{
+  background: #01B1EA;
+}
+
+/* Estilos del submenú */
+/*#menu ul.submenu {
+ display: none;
+ position: absolute;
+ background-color: #fff;
+ padding: 0;
+ z-index: 1;
+}
+
+#menu ul.submenu li {
+ width: 100%;
+}
+
+#menu ul.submenu li a {
+ display: block;
+ padding: 10px;
+ color: #333;
+ text-decoration: none;
+}
+
+/* Mostrar el submenú al hacer clic en "Inicio" */
+/*
+#menu ul li:hover > ul.submenu {
+ display: block;
+}
+
+/*FOOTER*/
+/*
+#footer{
+ clear: both;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: white;
+ background: #222222;
+ border-top: 4px solid #01B1EA;
+
+}
+
+*/
+
+/* Estilos Generales */
+* {
+ padding: 0;
+ margin: 0;
+ font-family: sans-serif, Arial, Helvetica;
+}
+
+
+/* Formulario */
+#crear1 {
+ width: 70%;
+ margin: 0 auto;
+ margin-top: 50px;
+ padding: 20px;
+ background-color: #f0f0f0;
+ border-radius: 5px;
+}
+
+form h1 {
+ text-align: center;
+ margin-bottom: 20px;
+ color: #01B1EA;
+}
+
+#crear {
+ display: block;
+ margin-bottom: 10px;
+ color: #333;
+ font-weight: bold;
+}
+
+form input[type="text1"],
+form input[type="email"],
+form input[type="number"],
+form input[type="password"],
+form textarea,
+form select {
+ width: 95%;
+ padding: 10px;
+
+ margin-bottom: 20px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+}
+
+form input[type="file"] {
+ width: 95%;
+ padding: 10px;
+ margin-bottom: 20px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+}
+
+form input[type="file"]::file-selector-button {
+ padding: 8px 15px;
+ background-color: #01B1EA;
+ color: white;
+ border-radius: 5px;
+ border: none;
+ cursor: pointer;
+}
+
+form input[type="file"]::file-selector-button:hover {
+ background-color: #0096C7;
+}
+
+form input[type="submit"] {
+ background-color: #01B1EA;
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+ background-color: #0096C7;
+}
+
+form .registrarse-btn {
+ text-align: center;
+ margin-top: 20px;
+}
+.password-wrapper {
+ display: flex;
+ align-items: center;
+ margin-bottom: 20px; /* Añade un margen inferior para separar el campo de contraseña */
+ justify-content: center; /* Centra horizontalmente */
+}
+
+.password-wrapper label {
+ margin-right: 10px;
+}
+
+.password-wrapper input {
+ padding: 10px;
+ border: 1px solid #ccc;
+ width: 500px; /* Ajusta el ancho según tus necesidades */
+}
+
+
+/* Ajusta los estilos según tus preferencias */
+
+
+table {
+ width: 80%;
+ margin: 0 auto; /* Añade esta línea para centrar la tabla */
+ text-align: center;
+}
+
+
+
+
+.tablacate th,
+.tablacate td {
+ padding: 10px;
+text-align: left;
+border-bottom:  1px solid #ccc;
+}
+
+.tablacate th {
+ background-color: #f2f2f2;
+}
+
+.tablacate tr:hover {
+ background-color: #f9f9f9;
+}
+.tablacate {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.button {
+ display: block;
+ width: 25%;
+ padding: 10px 20px;
+ background-color: #4CAF50;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ border-radius: 4px;
+ font-size: 16px;
+ border: none;
+ cursor: pointer;
+ margin-left: auto;
+ margin-right: 155px;
+ margin-bottom: 20px;
+}
+
+.button:hover {
+ background-color: #45a049;
+}
+
+.button-small {
+ display: inline-block;
+ padding: 6px 12px;
+ background-color: #4CAF50;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ border-radius: 4px;
+ font-size: 14px;
+ border: none;
+ cursor: pointer;
+}
+
+.button-small.delete {
+ background-color: #FF0000;
+}
+
+
+.button-small:hover {
+ background-color: #45a049;
+}
+
+.thumb {
+ width: 100px;
+ margin-top: 5px;
+}
+
+
+table {
+ width: 100%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.tablacate th,
+.tablacate td {
+ padding: 10px;
+ border-bottom: 1px solid #ccc;
+}
+
+.tablacate th {
+ background-color: #f2f2f2;
+}
+
+.tablacate tr:hover {
+ background-color: #f9f9f9;
+}
+
+.tablacate {
+ margin: 0 auto;
+}
+
+.button {
+ display: block;
+ width: 100%;
+ max-width: 200px;
+ padding: 10px 20px;
+ background-color: #4CAF50;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ border-radius: 4px;
+ font-size: 16px;
+ border: none;
+ cursor: pointer;
+ margin-bottom: 20px;
+}
+
+.button:hover {
+ background-color: #45a049;
+}
+
+.button-small {
+ display: inline-block;
+ padding: 6px 12px;
+ background-color: #4CAF50;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ border-radius: 4px;
+ font-size: 14px;
+ border: none;
+ cursor: pointer;
+}
+
+.button-small.delete {
+ background-color: #FF0000;
+}
+
+.button-small.session {
+ background-color: hsl(239, 81%, 50%);
+ margin-left: 20px;
+}
+
+.button-small.user {
+ background-color: hsl(0, 91%, 40%);
+ margin-left: 20px;
+}
+
+.button-small.nuevo {
+ background-color: hsl(149, 90%, 45%);
+ margin-left: 100px;
+}
+
+.button-small:hover {
+ background-color: #45a049;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+ .tablacate th,
+ .tablacate td {
+    padding: 2px;
+ }
+
+ .button {
+    max-width: 100px;
+ }
+}
+
+.button:last-child {
+ margin-right: 0; /* Elimina el margen derecho del último botón */
+}
+
+.thumb {
+ width: 100px;
+ margin-top: 5px;
+}
+
+
+
+
+.my-custom-ver {
+ height: 350px; /*ajusta la altura según sea necesario */
+ 
+}
+
+.my-custom-class {
+ height: 170px; /*ajusta la altura según sea necesario */
+
+}
+
+
+.agrandar {
+ max-width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+
+.agrandar .background-image {
+ display: inline-block;
+ text-align: center;
+}
+
+.agrandar .background-image img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.small-image {
+ transition: transform 0.3s ease;
+}
+
+.small-image:hover {
+ transform: scale(1.2);
+}
+
+.small-image:hover::after {
+ content: '';
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 50px;
+ height: 50px;
+ background-image: url('ruta-a-tu-icono-de-lupa');
+ background-size: cover;
+}
